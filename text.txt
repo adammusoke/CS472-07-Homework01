@@ -1,0 +1,32 @@
+# CS472-07-Homework01
+# Homework 01: HTML
+## Theory
+1. What is the difference between URL and URI?
+A URL is a specific type of URI that provides a way to 
+locate a resource on the internet. It consists of the protocol 
+(such as HTTP or HTTPS), the domain name or IP address, and the path, 
+query parameters, and fragment identifier.
+
+A URI is a string of characters that identifies
+ or names a resource, but it may not provide the exact 
+ location of that resource. A URI can be used to identify 
+ various types of resources, including web pages, files, people, concepts, or abstract ideas.
+
+2. What is the difference between the absolute path and the relative path?
+ An absolute path provides the complete and exact location of a resource 
+ starting from the root directory of the website or the server. It includes 
+ all the necessary information to locate the resource, such as the protocol 
+ (http:// or https://), domain name, subdirectories, and the file name. 
+ Absolute paths are typically used when linking to external resources or 
+ when the resource is located in a different domain or website.
+
+ Whereas a relative path specifies the location of a resource relative to the current 
+ location of the HTML file or the current directory. It indicates the path from the 
+ current directory to the resource, without explicitly mentioning the root directory or 
+ the domain. Relative paths are commonly used when linking to internal resources within 
+ the same website or when the resource is located in a subdirectory of the current directory.
+3. What is the HTTP request and response?
+HTTP (Hypertext Transfer Protocol) is the protocol used for communication between a client 
+(such as a web browser) and a server over the internet. When a client wants to retrieve a 
+resource (e.g., a web page, an image, or data) from a server, it initiates an HTTP request. 
+The server, in turn, responds to the client's request with an HTTP response. 
